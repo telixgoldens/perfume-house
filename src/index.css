@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
 
 @font-face{
   font-family: neurial-grotesk;
@@ -8,6 +8,7 @@
   --purple-bgrc: #e6d2ff;
   --purple: #8d34ff;
   --off-white: #fefeff;
+  --ff-outfits: "Outfit", sans-serif;
 }
 nav h2 {
   font-family: "Sansita", sans-serif;
@@ -36,4 +37,61 @@ nav h2 {
   font-size: 20px;
   font-family: neurial-grotesk;
   
+}
+.signin-container{
+  background-image: url("assets/136251.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+.card-container{
+  width: 30%;
+
+}
+.card-img{
+  height: 256.62px;
+  width: 256.62px;
+}
+.card-title{
+  font-size: 15.97px;
+  font-weight: 700;
+  font-family: neurial-grotesk;
+}
+.add-to-cart-btn{
+  background-color: var(--purple);
+  color: var(--off-white);
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+@media(max-width:767px){
+  .signin-container{
+    background-image: none;
+  }
+  .card-container{
+    min-width: 98%;
+  
+  }
+  .card-title{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .card-img{
+    height: 335.55px;
+    width: 335.55px;
+  }
+}
+@media(min-width: 768px) and (max-width: 1023px){
+  .card-container{
+    min-width: 48%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-img{
+    height: 335.55px;
+    width: 335.55px;
+  }
 }

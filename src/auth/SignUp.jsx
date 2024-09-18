@@ -19,7 +19,7 @@ const SignUp = () => {
               <h1>Get Started</h1>
               <p>Lets get started by filling out the information below</p>
               <div className="d-flex ">
-                <div className=" first-last ">
+                <div className=" first-last">
                   <label htmlFor="first-name">First Name</label>
                   <input type="text" id="first-name" placeholder="Enter Name" className="name-space" />
                 </div>

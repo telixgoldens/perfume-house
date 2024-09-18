@@ -17,7 +17,7 @@ const OffCanvas = ({ name, ...props }) => {
       </div>
       <Offcanvas show={show} onHide={handleClose} {...props}>
         <Offcanvas.Body>
-          <div className="d-flex flex-column continer mt-3 gap-3">
+          <div className="d-flex flex-column container mt-3 gap-3">
           <button className="login-btn w-100">
             <Link className="text-decoration-none login-btn" to="/auth/signin">Log In</Link>
             </button>

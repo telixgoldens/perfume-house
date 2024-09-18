@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap");
 
-@font-face{
+@font-face {
   font-family: neurial-grotesk;
   src: url("./assets/Font-Family/NeurialGrotesk-Regular.otf");
 }
@@ -26,9 +26,9 @@ nav h2 {
   font-size: 20px;
   font-family: neurial-grotesk;
 }
-.signup-btn{
+.signup-btn {
   background-color: var(--purple);
-  color: #F5F5F5;
+  color: #f5f5f5;
   border-radius: 8px;
   border: none;
   height: 61px;
@@ -36,28 +36,26 @@ nav h2 {
   font-weight: 500;
   font-size: 20px;
   font-family: neurial-grotesk;
-  
 }
-.signin-container{
+.signin-container {
   background-image: url("assets/136251.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   min-height: 100vh;
 }
-.card-container{
+.card-container {
   width: 30%;
-
 }
-.card-img{
+.card-img {
   height: 256.62px;
   width: 256.62px;
 }
-.card-title{
+.card-title {
   font-size: 15.97px;
   font-weight: 700;
   font-family: neurial-grotesk;
 }
-.add-to-cart-btn{
+.add-to-cart-btn {
   background-color: var(--purple);
   color: var(--off-white);
   height: 40px;
@@ -66,31 +64,160 @@ nav h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
+.perfume-logo {
+  width: 193.66px;
+  height: 47.2px;
+}
+.perf {
+  font-weight: 700;
+  font-family: "Sansita", sans-serif;
+  color:  #FFFFFF;
+  
+}
+form {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 640px;
+  height: 918.9px;
+}
+form h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  font-family: neurial-grotesk;
+  margin-left: 35px;
+}
+form p {
+  font-family: neurial-grotesk;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 35px;
+  margin-bottom: 20px;
+}
+label {
+  font-family: neurial-grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-left: 35px;
+  margin-bottom: 5px;
+}
+.name-space {
+  width: 218px;
+  height: 49px;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2.5px solid #DEDFE0;
+}
 
-@media(max-width:767px){
-  .signin-container{
+.other-space {
+  width: 480px;
+  height: 49px;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2.5px solid #dedfe0;
+}
+#check {
+  width: 21px;
+  height: 19.6px;
+  border-radius: 4.2px;
+  margin-left: 35px;
+  margin-top: 8px;
+}
+.check-text{
+  margin-left:-1px;
+  padding-left: 5px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  width: 342.35px;
+  height: 40px;
+
+}
+.text-term{
+  color:#8D34FF;
+}
+.auth-signup{
+  width: 482px;
+  height: 64px;
+  background-color:  #8D34FF;
+  border-radius: 15px;
+  margin-left: 35px;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: neurial-grotesk;
+  margin-bottom: 5px;
+  margin-top: 3px;
+}
+.auth-signup:hover{
+  background-color: #8D34FF;
+  color: #FFFFFF;
+}
+hr{
+  width: 30%;
+  margin-left: 90px;
+  height: 1px;
+  background: rgba(79, 78, 78, 0);
+  position: absolute;
+}
+.or-to-hr{
+  position: relative;
+  text-align: center;
+  margin-top: 1px;
+  color:  rgba(79, 78, 78, 1);
+  width: 20px;
+  margin-left: 260px;
+  background-color:  white;
+}
+.google-btn{
+  width: 482px;
+  height: 64px;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 35px;
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: neurial-grotesk;
+  margin-bottom: 5px;
+  
+}
+form h6{
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+  .signin-container {
     background-image: none;
   }
-  .card-container{
+  .card-container {
     min-width: 98%;
-  
   }
-  .card-title{
+  .card-title {
     font-size: 20px;
     font-weight: 700;
   }
-  .card-img{
+  .card-img {
     height: 335.55px;
     width: 335.55px;
   }
 }
-@media(min-width: 768px) and (max-width: 1023px){
-  .card-container{
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card-container {
     min-width: 48%;
     display: flex;
     justify-content: space-between;
   }
-  .card-img{
+  .card-img {
     height: 335.55px;
     width: 335.55px;
   }

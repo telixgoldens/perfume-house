@@ -43,6 +43,12 @@ nav h2 {
   background-size: 100% 100%;
   min-height: 100vh;
 }
+.signup-container {
+  background-image: url("assets/136251.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
 .card-container {
   width: 30%;
 }
@@ -71,14 +77,12 @@ nav h2 {
 .perf {
   font-weight: 700;
   font-family: "Sansita", sans-serif;
-  color:  #FFFFFF;
-  
+  color: #ffffff;
 }
 form {
   background-color: #ffffff;
   border-radius: 15px;
   width: 640px;
-  height: 918.9px;
 }
 form h1 {
   font-size: 28px;
@@ -107,18 +111,20 @@ label {
   width: 210px;
   height: 49px;
   margin-left: 35px;
-  margin-bottom: 20px;
   border-radius: 5px;
-  border: 2.5px solid #DEDFE0;
+  border: 2.5px solid #dedfe0;
 }
 
 .other-space {
   width: 480px;
   height: 49px;
   margin-left: 35px;
-  margin-bottom: 20px;
   border-radius: 5px;
   border: 2.5px solid #dedfe0;
+}
+::placeholder {
+  padding-left: 10px;
+  
 }
 #check {
   width: 21px;
@@ -127,8 +133,8 @@ label {
   margin-left: 35px;
   margin-top: 8px;
 }
-.check-text{
-  margin-left:-1px;
+.check-text {
+  margin-left: -1px;
   padding-left: 5px;
   padding-bottom: 20px;
   font-size: 16px;
@@ -136,45 +142,44 @@ label {
   line-height: 20px;
   width: 342.35px;
   height: 40px;
-
 }
-.text-term{
-  color:#8D34FF;
+.text-term {
+  color: #8d34ff;
 }
-.auth-signup{
+.auth-signup {
   width: 482px;
   height: 64px;
-  background-color:  #8D34FF;
+  background-color: #8d34ff;
   border-radius: 15px;
   margin-left: 35px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 22px;
   font-weight: 500;
   font-family: neurial-grotesk;
   margin-bottom: 5px;
   margin-top: 3px;
 }
-.auth-signup:hover{
-  background-color: #8D34FF;
-  color: #FFFFFF;
+.auth-signup:hover {
+  background-color: #8d34ff;
+  color: #ffffff;
 }
-hr{
-  width: 30%;
-  margin-left: 90px;
+hr {
+  width: 441px;
   height: 1px;
   background: rgba(79, 78, 78, 0);
   position: absolute;
+  margin-left: 55px;
 }
-.or-to-hr{
+.or-to-hr {
   position: relative;
   text-align: center;
   margin-top: 1px;
-  color:  rgba(79, 78, 78, 1);
-  width: 20px;
+  color: rgba(79, 78, 78, 1);
+  width: 30px;
   margin-left: 260px;
-  background-color:  white;
+  background-color: white;
 }
-.google-btn{
+.google-btn {
   width: 482px;
   height: 64px;
   background-color: white;
@@ -185,9 +190,8 @@ hr{
   font-weight: 500;
   font-family: neurial-grotesk;
   margin-bottom: 5px;
-  
 }
-form h6{
+form h6 {
   font-size: 18px;
   font-weight: 400;
   text-align: center;
@@ -195,8 +199,61 @@ form h6{
   margin-top: 5px;
 }
 
+/* Cart */
+.cart-h1 {
+  font-size: 28px;
+}
+.title-cart {
+  font-weight: 600;
+  font-size: 14px;
+}
+.cart-img {
+  width: 95px;
+  height: 110px;
+  border-radius: 3px;
+}
+.minus {
+  background-color: #716f6f;
+  padding: 7px 5px;
+  border-radius: 3px;
+}
+.plus {
+  background-color: #8d34ff;
+  padding: 5px;
+  border-radius: 3px;
+}
+.cart-d {
+  width: 179.69px;
+}
+.remove {
+  border: none;
+  background-color: #fff;
+  border: 1px solid red;
+  border-radius: 3px;
+  width: 87.33px;
+  height: 26.36px;
+  color: red;
+}
+.order {
+  border: none;
+  background-color: #8d34ff;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  width: 300px;
+  height: 44px;
+}
+.price {
+  font-weight: 700;
+}
+
 @media (max-width: 767px) {
   .signin-container {
+    background-image: none;
+  }
+  .signup-container {
     background-image: none;
   }
   .card-container {
@@ -209,6 +266,51 @@ form h6{
   .card-img {
     height: 335.55px;
     width: 335.55px;
+  }
+  form {
+    width: 100%;
+  }
+  form h1 {
+    margin-left: 1px;
+  }
+  form p {
+    margin-left: 1px;
+  }
+  label {
+    margin-left: 1px;
+    
+  }
+  .name-space {
+    width: 100%;
+    height: 49px;
+    margin-left: 1px;
+  }
+  .other-space {
+    width: 100%;
+    height: 49px;
+    margin-left: 1px;
+  }
+  .auth-signup {
+    width: 100%;
+    height: 57px;
+    font-size: 18px;
+    margin-left: 1px;
+  }
+  #check {
+    margin-left: 1px;
+  }
+  .google-btn {
+    width: 100%;
+    height: 57px;
+    font-size: 18px;
+    margin-left: 1px;
+  }
+  hr {
+    width: 302px;
+    margin-left: 17px;
+  }
+  .or-to-hr {
+    margin-left: 150px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {

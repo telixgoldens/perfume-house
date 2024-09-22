@@ -8,16 +8,15 @@ import Home from "./pages/Home";
 function App() {
   return (
     <>
-      
       <BrowserRouter>
-      <Routes>
-      <Route element={<Navbar />}>
-      <Route path="/" element={<Home/>}/>
-
-      </Route>
-      <Route path="/auth/signin" element={<SignIn/>}/>
-      <Route path="/auth/signup" element={<SignUp/>}/>
-      </Routes>
+        <Routes>
+          <Route element={<Navbar />}>
+            <Route path="/" element={<Home />} />
+          </Route>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/auth/signin" element={<SignIn />} />
+          <Route path="/auth/signup" element={<SignUp />} />
+        </Routes>
       </BrowserRouter>
     </>
   );
